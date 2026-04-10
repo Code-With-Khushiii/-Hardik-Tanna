@@ -94,9 +94,12 @@ function App() {
       title: "AI-Powered Video Analysis & Retrieval System",
       subtitle: "CLIP, AWS Bedrock, Kubernetes, NVIDIA MPS",
       category: "Applied AI System",
-      introduction: "Built a production video analysis system using CLIP for incident detection and multimodal LLM analysis via AWS Bedrock, processing 1,800+ videos through Kubernetes orchestration and NVIDIA MPS acceleration.",
-      problem: "Large-scale video repositories are difficult to search manually, and incident analysis requires fast, accurate retrieval while preserving security boundaries and controlling inference costs.",
-      objective: "Create a scalable multimodal retrieval platform that improves incident detection accuracy, reduces query latency, and enforces secure access controls for enterprise video analytics.",
+      introduction:
+        "Built a production video analysis system using CLIP for incident detection and multimodal LLM analysis via AWS Bedrock, processing 1,800+ videos through Kubernetes orchestration and NVIDIA MPS acceleration.",
+      problem:
+        "Large-scale video repositories are difficult to search manually, and incident analysis requires fast, accurate retrieval while preserving security boundaries and controlling inference costs.",
+      objective:
+        "Create a scalable multimodal retrieval platform that improves incident detection accuracy, reduces query latency, and enforces secure access controls for enterprise video analytics.",
       methodology: [
         "Integrated CLIP embeddings with AWS Bedrock-powered multimodal analysis workflows.",
         "Orchestrated processing pipelines on Kubernetes with NVIDIA MPS acceleration.",
@@ -106,93 +109,10 @@ function App() {
       results: [
         "Processed 1,800+ videos with 95% incident detection accuracy.",
         "Achieved 87% retrieval accuracy with 3.8-second p95 latency.",
-        "Maintained average query cost at const projects ",
-    {
-      title: "AI Interview Intelligence Platform",
-      subtitle: "NYU Capstone Project · Go to Market Strategy for AI Recruitment Tool",
-      category: "GenAI Product",
-      introduction: "Developed a comprehensive Go-to-Market strategy for an AI-powered recruitment and interview intelligence platform. Conducted extensive market research, competitive analysis, and customer discovery to define market entry strategy, positioning, and launch roadmap for enterprise AI recruitment solutions.",
-      problem: "Traditional interview and recruitment processes lack data-driven insights and consistency, leading to suboptimal hiring decisions and candidate experiences. AI recruitment tools face adoption barriers and unclear go-to-market positioning.",
-      objective: "Create a defensible Go-to-Market strategy for an AI recruitment platform that enables successful market entry, clear value proposition, and scalable adoption across enterprises.",
-      methodology: [
-        "Authored product vision and Go-to-Market strategy document.",
-        "Benchmarked 40+ competitors to identify market gaps and opportunities.",
-        "Defined target segments, positioning, and pricing strategy.",
-        "Developed phased launch roadmap and success metrics."
-      ],
-      results: [
-        "Identified key market differentiators and positioning strategy.",
-        "Established clear market entry plan and phased roadmap.",
-        "Created actionable GTM playbook with technical and commercial specifications."
-      ],
-      conclusion: "Successfully demonstrated end-to-end product management skills from market research to Go-to-Market strategy for an AI-powered enterprise recruitment solution.",
-      link: "https://drive.google.com/file/d/1RVhSoUjai1VkC77Ga04F29NZJ1Q8YZAE/view?usp=sharing"
-    },
-    {
-      title: "Design Strategy",
-      subtitle: "Design Strategy Project",
-      category: "Design Strategy",
-      introduction:
-        "Design strategy project addressing the Sandwich Generation problem — adults aged 40–60 doing double duty caring for young and adult children as well as aging parents. The project explores product insights, user research, and strategic decision modeling to create solutions that help multigenerational caregivers survive and thrive.",
-      problem:
-        "53 million Americans provide unpaid care to family members, often balancing full-time jobs and caregiving responsibilities. This invisible labor leads to emotional burnout, financial stress from out-of-pocket expenses, career disruptions, and family tensions due to unshared caregiving load. Existing wellness apps don't offer tools for shared caregiving, mental health support, or recognition.",
-      objective:
-        "Build a data-driven, user-centered approach that converts raw caregiving pain points into actionable product concepts, visual analytics, and strategic recommendations — bridging family life and workplace wellness in a $100B+ market.",
-      methodology: [
-        "Conducted primary user interviews with sandwich-generation caregivers to validate assumptions against real behaviors and preferences.",
-        "Applied design strategy frameworks: opportunity hypothesis generation, \"What We Thought vs. What We Learnt\" insight mapping, and cliché auditing.",
-        "Built product concepts (CareXP, Time Trader) with user journeys, flywheels, and How-to-Win strategies.",
-        "Developed TAM/SAM/SOM market sizing, financial projections, and Business Model Canvas for each opportunity area."
-      ],
-      results: [
-        "Generated actionable product insights from primary research — community-driven emotional support preferred over clinical therapy; financial rewards appealing regardless of income level.",
-        "Demonstrated a practical design strategy workflow from problem framing through opportunity hypothesis, user journey mapping, flywheel design, and go-to-market strategy.",
-        "Presented two distinct product concepts with market analysis (CareXP: $60B TAM, Time Trader: $1B TAM), subscription pricing models, and 3-year financial projections."
+        "Maintained average query cost at $0.08 while enforcing role-based vector isolation and PII filtering."
       ],
       conclusion:
-        "The project demonstrates the integration of design strategy techniques with product thinking to generate valuable business insights — transforming the caregiving challenge into two viable platform concepts that address emotional burnout, family coordination, and workplace wellness for the sandwich generation.",
-      link: "https://drive.google.com/file/d/1ZSCh9qU2NNUbuHnmkvnP5xEeFVjQot09/view?usp=sharing"
-    },
-    {
-      title: "Strategic Risk & Resource Modeling",
-      subtitle: "NYU Stern Analytics Project",
-      category: "Data Analytics & Strategy",
-      introduction: "Applied advanced analytics and simulation techniques to optimize budget allocation decisions for an $80M portfolio.",
-      problem: "Complex budget allocation decisions across multiple initiatives require rigorous analytical approach to optimize resource distribution and manage risk.",
-      objective: "Optimize $80M budget allocation using statistical modeling and simulation to inform prioritization trade-offs.",
-      methodology: [
-        "Ran 1,000-trial Monte Carlo simulations for risk assessment.",
-        "Used confidence intervals to quantify uncertainty ranges.",
-        "Applied RICE-based prioritization framework.",
-        "Developed scenario models for different allocation strategies."
-      ],
-      results: [
-        "Provided data-driven recommendations for budget allocation.",
-        "Quantified risk exposure across different scenarios.",
-        "Enabled informed trade-off decisions using statistical evidence."
-      ],
-      conclusion: "Showcased ability to apply advanced analytics and statistical methods to strategic business decisions."
-    },
-    {
-      title: "Ashwa Racing - FSAE Program Lead",
-      subtitle: "120-member Racing Team",
-      category: "Program Management",
-      introduction: "Directed roadmap execution and cross-team dependency management for a 120-member Formula SAE racing program, overseeing multiple engineering workstreams.",
-      problem: "Large-scale engineering programs require strong governance and coordination across multiple teams to deliver complex systems on time.",
-      objective: "Strengthen delivery governance and reduce execution risk across a 120-member program while improving operational stability.",
-      methodology: [
-        "Established roadmap execution framework across all teams.",
-        "Managed cross-team dependencies and critical path items.",
-        "Implemented delivery governance processes.",
-        "Coordinated resource allocation and timeline management."
-      ],
-      results: [
-        "Reduced execution risk through improved governance.",
-        "Enhanced operational stability across all workstreams.",
-        "Successfully delivered complex engineering program."
-      ],
-      conclusion: "Demonstrated program management expertise at scale, coordinating large teams toward complex technical deliverables."
-
+        "This project highlights applied AI engineering across retrieval, orchestration, evaluation, and security for a production-ready multimodal analysis platform."
     }
   ];
 
