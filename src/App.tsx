@@ -106,7 +106,7 @@ function App() {
       results: [
         "Processed 1,800+ videos with 95% incident detection accuracy.",
         "Achieved 87% retrieval accuracy with 3.8-second p95 latency.",
-        "Maintained average query cost at const projects = [
+        "Maintained average query cost at const projects ",
     {
       title: "AI Interview Intelligence Platform",
       subtitle: "NYU Capstone Project · Go to Market Strategy for AI Recruitment Tool",
